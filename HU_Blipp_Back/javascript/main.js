@@ -297,7 +297,9 @@ scene.onCreate = function() {
   websiteButton1.on('touchEnd', function() {
     blipp.openURL(webURL);
   });
-  
+  websiteButton2.on('touchEnd', function() {
+    blipp.openURL(webURL);
+  });
   imgButton2.on('touchEnd', function() {
 	if (!textLayer1.getHidden()) {
 		hide([textLayer1,closeButton1,videoButton1,websiteButton1]);
