@@ -19,13 +19,13 @@ scene.onCreate = function() {
       imgButton2 = scene.addSprite().setTexture('button_img_2.png').setScale(180, 180, 0).setTranslation(157.5, 80, 1),
 		buttonText2 = scene.addSprite().setTexture('button_text_2.jpg').setScale(340, 60, 0).setTranslation( -75, 80, 0),
         textLayer2 = scene.addSprite().setTexture('text_layer_2.jpg').setScale(369, 537, 0).setTranslation( -150, -243, 101).setHidden(true),
-          videoButton2 = scene.addSprite().setTexture('button_video_1.jpg').setScale(330, 55, 0).setTranslation(-150, -395, 111).setHidden(true),
+          videoButton2 = scene.addSprite().setTexture('button_video_2.jpg').setScale(330, 55, 0).setTranslation(-150, -395, 111).setHidden(true),
           websiteButton2 = scene.addSprite().setTexture('button_website_1.jpg').setScale(330, 55, 0).setTranslation(-150, -460, 111).setHidden(true),
         closeButton2 = scene.addSprite().setTexture('close_button.png').setScale(60, 60, 0).setTranslation(-317, 51,120).setHidden(true),
       imgButton3 = scene.addSprite().setTexture('button_img_3.png').setScale(180, 180, 0).setTranslation(157.5, -107.5, 1),
 		buttonText3 = scene.addSprite().setTexture('button_text_3.jpg').setScale(340, 60, 0).setTranslation( -75, -107.5, 0),
 	  infoButton = scene.addSprite().setTexture('more_info.jpg').setScale(315, 120, 0).setTranslation((mW * 0.35), (mH - (mH * 1.45)), 0),
-	  webURL = "http://19578.hosts.ma-cloud.nl/hu/";
+	  webURL = "http://lisette.work/campagne_a/";
 
 
   textLayer1.onCreate = function(time) {
@@ -288,6 +288,10 @@ scene.onCreate = function() {
 
   videoButton1.on('touchEnd', function() {
     blipp.openURL("https://youtu.be/wYRymhZrFmk?t=62");
+  });
+  
+  videoButton2.on('touchEnd', function() {
+    blipp.openURL("https://www.youtube.com/watch?v=gzuXFcYdl-U");
   });
 
   websiteButton1.on('touchEnd', function() {

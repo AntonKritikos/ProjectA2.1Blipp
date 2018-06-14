@@ -16,7 +16,7 @@ scene.onCreate = function() {
           huButton = scene.addSprite().setTexture('hu_button.jpg').setScale(320, 60, 0).setTranslation(0, 0, 70),
         blueLayer = scene.addSprite().setTexture('leraar_techniek.png').setScale(320, 110, 0).setTranslation(0, 0, 100),
         redLayer = scene.addSprite().setTexture('leid_op.png').setScale(350, 230, 0).setTranslation(0, 0, -50),
-		webURL = "http://19578.hosts.ma-cloud.nl/hu/";
+		webURL = "http://lisette.work/campagne_a/";
 
   bodyLayer.onCreate = function(time) {
     this.animationStartT = [0, 0, 0];
